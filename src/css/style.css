@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/img/bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+p {
+    line-height: 2;
+}
+
+.register-button {
+    color: #000;
+    border-radius: 30px;
+    padding: 15px 50px;
+    background-color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.footer {
+    font-size: 2rem;
+}
+
+.footer svg {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
