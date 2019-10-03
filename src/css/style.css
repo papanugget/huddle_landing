@@ -9,11 +9,36 @@ body, html {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
-
 .container {
     padding: 50px;
 }
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-container > *{
+    flex: 1 100%;
+}
+.header {
 
+}
+.image-container {
+    flex: 1;
+}
+.image-container > img {
+    /* width: 100%; */
+    /* max-width:1000px; */
+    margin: auto;
+    height: auto;
+    width: auto;
+    /* display: block; */
+}
+
+.landing-text {
+    flex:2;
+    padding: 50px;
+    width: 60%;
+}
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -21,7 +46,6 @@ h1 {
 p {
     line-height: 2;
 }
-
 .register-button {
     color: #000;
     border-radius: 30px;
@@ -30,12 +54,17 @@ p {
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
-
 .footer {
     font-size: 2rem;
-}
+    text-align: right;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
 
+}
 .footer svg {
+    /* top: 95%; */
+    /* bottom: 0; */
     margin: 15px;
     padding: 10px;
     border: 2px solid #fff;

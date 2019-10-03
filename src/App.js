@@ -13,12 +13,12 @@ library.add( fab );
 const App = () => {
   return(
     <div className="container">
-      <Header />
       <div className="flex-container">
+        <Header />
         <ImageBox/>
         <TextBox/>
+        <Footer/>
       </div>
-      <Footer/>
     </div>
   );
 
